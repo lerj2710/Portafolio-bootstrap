@@ -11,14 +11,14 @@
 body {
   font-family: "Open Sans", sans-serif;
   background-color: #040404;
-  color: #FF8C00;
+  color: #fff;
   position: relative;
   background: transparent;
 }
 body::before {
   content: "";
   position: fixed;
-  background: #040404 url("../img/fondo2.jpg") top right no-repeat;
+  background: #040404 url("../img/fondo.jpg") top right no-repeat;
   background-size: cover;
   left: 0;
   right: 0;
@@ -70,17 +70,17 @@ h1, h2, h3, h4, h5, h6 {
   font-family: "Poppins", sans-serif;
 }
 #header h1 a, #header h1 a:hover {
-  color: #FF8C00;
+  color: #fff;
   line-height: 1;
   display: inline-block;
 }
 #header h2 {
   font-size: 24px;
   margin-top: 20px;
-  color: #FF8C00;
+  color: rgba(255, 255, 255, 0.8);
 }
 #header h2 span {
-  color: #FF8C00;
+  color: #fff;
   border-bottom: 2px solid #18d26e;
   padding-bottom: 6px;
 }
@@ -98,7 +98,7 @@ h1, h2, h3, h4, h5, h6 {
   justify-content: center;
   align-items: center;
   background: rgba(255, 255, 255, 0.1);
-  color: #FF8C00;
+  color: #fff;
   line-height: 1;
   margin-right: 8px;
   border-radius: 50%;
